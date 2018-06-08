@@ -30,7 +30,6 @@ function activeDot() {
 
 function clickDot() {
     if (this.className === 'on') return;
-    console.log(1111);
     index = this.index;
     moveSlide();
 }
