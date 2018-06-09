@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    width: 100%;
+    height: 200px;
+    background: #00a1d6;
+}
+
+.menu {
+    width: 980px;
+    height: 50px;
+    margin: 0 auto;
+    background: salmon;
+}
+
+footer {
+    height: 350px;
+    margin-top: 50px;
+    background: silver;
+}
+
+.wrapper {
+    width: 980px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.wrapper>div:not([id^="bili_"]) {
+    width: 100%;
+    height: 200px;
+}
+
+.wrapper .chief_recommend,
+.special_recommend {
+    background: lightgreen;
+}
+
+.wrapper .home_popularize {
+    background: lightcyan;
+}
+
+.wrapper>div[id^="bili_"] {
+    position: relative;
+    height: 460px;
+    background: rgba(0, 191, 255, 0.267);
+    margin-bottom: 20px;
+}
+
+.wrapper>div h2 {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    font-size: 4em;
+}
+
+.wrapper>div[id^="bili_"]:nth-child(even) {
+    background: rgba(255, 51, 0, 0.267);
+}
+
+.elevator {
+    position: fixed;
+    margin-left: 500px;
+    top: 250px;
+    left: 50%;
+    height: auto;
+    transition: top .3s;
+}
+
+.nav-list {
+    position: relative;
+    background-color: #f6f9fa;
+    border: 1px solid #e5e9ef;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.nav-list .item {
+    width: 48px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    user-select: none;
+    transition: all .3s;
+}
+
+.nav-list .item.on,
+.nav-list .item:hover {
+    background-color: #00a1d6;
+    color: #fff;
+}
+
+.nav-list .customize {
+    height: 38px;
+    line-height: 20px;
+    padding: 8px 0;
+    border-top: 1px solid #e5e9ef;
+}
+
+.nav-list .customize .icon {
+    display: block;
+    margin: 0 auto 4px;
+    background-position: -663px -151px;
+    height: 18px;
+    width: 18px;
+}
+
+.nav-list .customize:hover .icon {
+    background-position: -727px -151px;
+}
+
+.elevator .s-line {
+    position: relative;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    height: 9px;
+    width: 30px;
+    margin: 0 auto;
+}
+
+.elevator .back-top {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    height: 48px;
+    background-position: -648px -72px;
+    background-color: #f6f9fa;
+    border: 1px solid #e5e9ef;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.elevator .back-top:hover {
+    background-color: #00a1d6;
+    background-position: -714px -72px;
+    border-color: #00a1d6;
+}
+
+.icon {
+    background-image: url(//static.hdslb.com/images/base/icons.png);
+}
