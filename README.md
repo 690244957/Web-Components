@@ -18,3 +18,6 @@
 效果参考：[淘宝首页右侧导航栏](https://www.taobao.com/)，[B站首页右侧导航栏](https://www.bilibili.com/)，[segmentfault文章页面右侧目录](https://segmentfault.com/a/1190000015221586)。
 #### 实例仿写
 [B站首页电梯](http://htmlpreview.github.io/?https://github.com/Observer-L/Web-Components/blob/master/%E7%94%B5%E6%A2%AF/B%E7%AB%99%E9%A6%96%E9%A1%B5%E5%8F%B3%E4%BE%A7%E5%AF%BC%E8%88%AA%E6%A0%8F/index.html)  
+
+## 无延迟菜单
+[基本实现](http://htmlpreview.github.io/?https://github.com/Observer-L/Web-Components/blob/master/%E6%97%A0%E5%BB%B6%E8%BF%9F%E8%8F%9C%E5%8D%95/%E5%9F%BA%E6%9C%AC%E5%AE%9E%E7%8E%B0/index.html)
