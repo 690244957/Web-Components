@@ -1,0 +1,71 @@
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.tab {
+    width: 400px;
+    height: 300px;
+    margin: 50px auto;
+}
+
+.tab_list .tab_item {
+    float: left;
+    width: 100px;
+    height: 50px;
+    font-size: 1.6em;
+    text-align: center;
+    line-height: 50px;
+    background: #eee;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.tab_box {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    clear: left;
+}
+
+.tab_content {
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 150px;
+    line-height: 250px;
+}
+
+.tab_content.on {
+    display: block;
+}
+
+.tab_content:first-child,
+.tab_item:first-child.on {
+    /* background: salmon; */
+    background-image: url(https://images.pexels.com/photos/371633/pexels-photo-371633.jpeg?auto=compress&cs=tinysrgb&h=350)
+}
+
+.tab_content:nth-child(2),
+.tab_item:nth-child(2).on {
+    /* background: yellowgreen; */
+    background-image: url(https://www.telegraph.co.uk/content/dam/news/2016/10/23/111859048_Embargoed%20to%200001%20Monday%20October%2024%20%20FOR%20USE%20ONLY%20IN%20CONJUNCTION%20WITH%20TAKE%20A%20VIEW%20-%20LANDSC_trans_NvBQzQNjv4BqgsaO8O78rhmZrDxTlQBjdO0Jyi0jPPD6Zx1hiwTPhlc.jpg?imwidth=450)
+}
+
+.tab_content:nth-child(3),
+.tab_item:nth-child(3).on {
+    background: lightblue;
+}
+
+.tab_content:nth-child(4),
+.tab_item:nth-child(4).on {
+    background: khaki;
+}
+
+h2 {
+    text-align: center;
+}

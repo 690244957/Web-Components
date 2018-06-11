@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>标签页（Tab）</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="tab" data-config='{"triggerType": "click", "effect": "default", "auto": 3000}'>
+        <ul class="tab_list">
+            <li class="tab_item on">1</li>
+            <li class="tab_item">2</li>
+            <li class="tab_item">3</li>
+            <li class="tab_item">4</li>
+        </ul>
+        <div class="tab_box">
+            <div class="tab_content on">1</div>
+            <div class="tab_content">2</div>
+            <div class="tab_content">3</div>
+            <div class="tab_content">4</div>
+        </div>
+    </div>
+    <h2>点击切换，自动轮播，无切换特效，默认显示第一张</h2>
+
+    <div class="tab" data-config='{"triggerType": "mouseover", "effect": "fade", "auto": 3000}'>
+        <ul class="tab_list">
+            <li class="tab_item on">1</li>
+            <li class="tab_item">2</li>
+            <li class="tab_item">3</li>
+            <li class="tab_item">4</li>
+        </ul>
+        <div class="tab_box">
+            <div class="tab_content on">1</div>
+            <div class="tab_content">2</div>
+            <div class="tab_content">3</div>
+            <div class="tab_content">4</div>
+        </div>
+    </div>
+    <h2>hover切换，自动轮播，淡入淡出特效，默认显示第一张</h2>
+
+    <div class="tab" data-config='{"triggerType": "click", "effect": "fade", "invoke": 2, "auto": false}'>
+        <ul class="tab_list">
+            <li class="tab_item on">1</li>
+            <li class="tab_item">2</li>
+            <li class="tab_item">3</li>
+            <li class="tab_item">4</li>
+        </ul>
+        <div class="tab_box">
+            <div class="tab_content on">1</div>
+            <div class="tab_content">2</div>
+            <div class="tab_content">3</div>
+            <div class="tab_content">4</div>
+        </div>
+    </div>
+    <h2>点击切换，不自动轮播，淡入淡出特效，默认显示第二张</h2>
+    <script src="fade.js"></script>
+    <script src="extend.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
