@@ -21,3 +21,6 @@
 
 ## 无延迟菜单
 [基本实现](http://htmlpreview.github.io/?https://github.com/Observer-L/Web-Components/blob/master/%E6%97%A0%E5%BB%B6%E8%BF%9F%E8%8F%9C%E5%8D%95/%E5%9F%BA%E6%9C%AC%E5%AE%9E%E7%8E%B0/index.html)
+
+## 选项卡Tab
+[基本实现](http://htmlpreview.github.io/?https://github.com/Observer-L/Web-Components/blob/master/%E6%A0%87%E7%AD%BE%E9%A1%B5%EF%BC%88Tab%EF%BC%89/index.html)
